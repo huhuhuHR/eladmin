@@ -1,0 +1,441 @@
+repo_name: huhuhuHR/eladmin
+report_id: c5d18718ff39a2018e4bb73d559a9586
+version: 0.1
+repo_type: Public
+timestamp: '2024-07-02T01:28:38+00:00'
+requested_by: elunez
+provider: github
+branch: master
+detected_tools_count: 33
+tools:
+- name: Java
+  description: A concurrent, class-based, object-oriented, language specifically designed
+    to have as few implementation dependencies as possible
+  website_url: https://www.java.com
+  version: '1.8'
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/995/K85ZWV2F.png
+  detection_source_url: https://github.com/huhuhuHR/eladmin/blob/master/pom.xml
+  detection_source: Repo Metadata
+  last_updated_by: ZhengJie
+  last_updated_on: 2020-05-12 05:19:17.000000000 Z
+- name: SQL
+  description: It is a domain-specific language used in programming
+  website_url: https://en.wikipedia.org/wiki/SQL
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/2271/default_068d33483bba6b81ee13fbd4dc7aab9780896a54.png
+  detection_source_url: https://github.com/huhuhuHR/eladmin/blob/master/sql/eladmin.sql
+  detection_source: sql/eladmin.sql
+  last_updated_by: dqjdda
+  last_updated_on: 2019-10-29 13:45:15.000000000 Z
+- name: Apache FreeMarker
+  description: A free Java-based template engine
+  website_url: http://freemarker.incubator.apache.org/index.html
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Java Tools
+  image_url: https://img.stackshare.io/service/4456/ymCgaIO0_400x400.jpg
+  detection_source_url: https://github.com/huhuhuHR/eladmin
+  detection_source: Repo Metadata
+- name: Spring Framework
+  description: An application framework and inversion of control container for the
+    Java platform
+  website_url: https://spring.io/projects/spring-framework
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/2006/spring-framework-project-logo.png
+  detection_source_url: https://github.com/huhuhuHR/eladmin/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: luoqiangzheng@hz-cpp.com
+  last_updated_on: 2022-03-14 07:05:25.000000000 Z
+- name: MySQL
+  description: The world's most popular open source database
+  website_url: http://www.mysql.com
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1025/logo-mysql-170x170.png
+  detection_source_url: https://github.com/huhuhuHR/eladmin/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: 郑杰
+  last_updated_on: 2018-12-22 10:34:24.000000000 Z
+- name: Redis
+  description: Open source (BSD licensed), in-memory data structure store
+  website_url: http://redis.io/
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: In-Memory Databases
+  image_url: https://img.stackshare.io/service/1031/default_cbce472cd134adc6688572f999e9122b9657d4ba.png
+  detection_source_url: https://github.com/huhuhuHR/eladmin/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: ZhengJie
+  last_updated_on: 2020-05-12 05:19:17.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/huhuhuHR/eladmin
+  detection_source: Repo Metadata
+- name: Logback
+  description: A logging framework for Java applications
+  website_url: https://logback.qos.ch/
+  open_source: false
+  hosted_saas: false
+  category: Monitoring
+  sub_category: Log Management
+  image_url: https://img.stackshare.io/service/2923/05518ecaa42841e834421e9d6987b04f_400x400.png
+  detection_source_url: https://github.com/huhuhuHR/eladmin/blob/master/eladmin-system/src/main/resources/logback.xml
+  detection_source: eladmin-system/src/main/resources/logback.xml
+  last_updated_by: 郑杰
+  last_updated_on: 2018-12-22 10:34:24.000000000 Z
+- name: Apache Camel
+  description: A versatile open source integration framework
+  website_url: https://camel.apache.org/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Application Hosting
+  sub_category: Platform as a Service
+  image_url: https://img.stackshare.io/service/3276/xWt1RFo6_400x400.jpg
+  detection_source_url: https://github.com/huhuhuHR/eladmin/blob/master/eladmin-system/src/main/resources/config/application.yml
+  detection_source: eladmin-system/src/main/resources/config/application.yml
+  last_updated_by: 郑杰
+  last_updated_on: 2019-01-20 11:25:00.000000000 Z
+- name: cn.hutool:hutool-all
+  description: 提供丰富的Java工具方法，此模块为Hutool所有模块的打包汇总，最终形式为一个jar包
+  version: 5.7.22
+  license: FSFAP
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/eladmin/blob/master/eladmin-common/pom.xml
+  detection_source: eladmin-common/pom.xml
+  last_updated_by: luoqiangzheng@hz-cpp.com
+  last_updated_on: 2022-03-14 07:05:25.000000000 Z
+  vulnerabilities:
+  - name: Dromara Hutool Deserialization of Untrusted Data vulnerability
+    cve_id: CVE-2023-24162
+    cve_url: https://github.com/advisories/GHSA-77h8-5j3h-jcjf
+    detected_date: Feb 16
+    severity: critical
+    first_patched:
+  - name: Dromara hutool vulnerable to SQL Injection
+    cve_id: CVE-2023-24163
+    cve_url: https://github.com/advisories/GHSA-6c25-cxcc-pmc4
+    detected_date: Feb 9
+    severity: critical
+    first_patched: 5.8.21
+- name: ch.ethz.ganymed:ganymed-ssh2
+  description: 'Ganymed SSH-2: Java based SSH-2 Protocol Implementation'
+  license: BSD-1-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/eladmin/blob/master/eladmin-system/pom.xml
+  detection_source: eladmin-system/pom.xml
+  last_updated_by: zhanghouying
+  last_updated_on: 2019-11-19 03:41:53.000000000 Z
+- name: com.alibaba:druid-spring-boot-starter
+  description: Spring Boot with Druid support,help you simplify Druid config in Spring
+    Boot
+  version: 1.2.8
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/eladmin/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: luoqiangzheng@hz-cpp.com
+  last_updated_on: 2022-03-14 07:05:25.000000000 Z
+- name: com.alibaba:fastjson
+  description: Fastjson is a JSON processor
+  version: 1.2.83
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/eladmin/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: Zheng Jie
+  last_updated_on: 2022-05-24 02:09:28.000000000 Z
+- name: com.github.oshi:oshi-core
+  description: A JNA-based
+  version: 6.1.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/eladmin/blob/master/eladmin-system/pom.xml
+  detection_source: eladmin-system/pom.xml
+  last_updated_by: ZhengJie
+  last_updated_on: 2020-05-05 12:58:02.000000000 Z
+- name: com.jcraft:jsch
+  description: JSch is a pure Java implementation of SSH2
+  version: 0.1.55
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/eladmin/blob/master/eladmin-system/pom.xml
+  detection_source: eladmin-system/pom.xml
+  last_updated_by: ZhengJie
+  last_updated_on: 2020-05-05 12:58:02.000000000 Z
+- name: commons-configuration:commons-configuration
+  description: Tools to assist in the reading of configuration/preferences files in
+    various formats
+  version: '1.10'
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/eladmin/blob/master/eladmin-generator/pom.xml
+  detection_source: eladmin-generator/pom.xml
+  last_updated_by: luoqiangzheng@hz-cpp.com
+  last_updated_on: 2022-03-14 07:05:25.000000000 Z
+- name: javax.inject:javax.inject
+  description: The javax.inject API
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/eladmin/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: zhuon
+  last_updated_on: 2019-06-04 02:03:24.000000000 Z
+- name: javax.mail:mail
+  description: "${project.name}"
+  version: 1.4.7
+  license: Other
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/eladmin/blob/master/eladmin-tools/pom.xml
+  detection_source: eladmin-tools/pom.xml
+  last_updated_by: zhengjie
+  last_updated_on: 2021-02-08 12:57:44.000000000 Z
+- name: mysql:mysql-connector-java
+  description: MySQL JDBC Type 4 driver
+  license: GPL-3.0-only
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/eladmin/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: 郑杰
+  last_updated_on: 2018-12-22 10:34:24.000000000 Z
+- name: org.apache.commons:commons-lang3
+  description: Apache Commons Lang
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/eladmin/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: Zheng Jie
+  last_updated_on: 2022-10-24 10:17:35.000000000 Z
+- name: org.apache.commons:commons-pool2
+  description: The Apache Commons Object Pooling Library
+  version: 2.11.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/eladmin/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: Zheng Jie
+  last_updated_on: 2022-10-24 10:17:35.000000000 Z
+- name: org.apache.commons:commons-text
+  description: Apache Commons Text is a library focused on algorithms working on strings
+  version: 1.10.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/eladmin/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: Zheng Jie
+  last_updated_on: 2022-10-24 10:17:35.000000000 Z
+- name: org.apache.poi:poi
+  description: Apache POI - Java API To Access Microsoft Format Files
+  version: 5.2.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/eladmin/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: Zheng Jie
+  last_updated_on: 2022-10-24 10:17:35.000000000 Z
+- name: org.apache.poi:poi-ooxml
+  description: Apache POI - Java API To Access Microsoft Format Files
+  version: 5.2.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/eladmin/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: Zheng Jie
+  last_updated_on: 2022-10-24 10:17:35.000000000 Z
+- name: org.projectlombok:lombok
+  description: 'Spice up your java: Automatic Resource Management'
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/eladmin/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: Zheng Jie
+  last_updated_on: 2022-10-24 10:17:35.000000000 Z
+- name: org.quartz-scheduler:quartz
+  description: Enterprise Job Scheduler
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/eladmin/blob/master/eladmin-system/pom.xml
+  detection_source: eladmin-system/pom.xml
+  last_updated_by: ZhengJie
+  last_updated_on: 2020-05-29 01:25:26.000000000 Z
+- name: org.springframework.boot:spring-boot-starter-data-jpa
+  description: Starter for using Spring Data JPA with Hibernate
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/eladmin/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: Zheng Jie
+  last_updated_on: 2022-10-24 10:17:35.000000000 Z
+- name: org.springframework.boot:spring-boot-starter-data-redis
+  description: Starter for using Redis key-value data store with Spring Data Redis
+    and the Lettuce client
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/eladmin/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: Zheng Jie
+  last_updated_on: 2022-10-24 10:17:35.000000000 Z
+- name: org.springframework.boot:spring-boot-starter-security
+  description: Starter for using Spring Security
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/eladmin/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: Zheng Jie
+  last_updated_on: 2022-10-24 10:17:35.000000000 Z
+- name: org.springframework.boot:spring-boot-starter-test
+  description: Starter for testing Spring Boot applications with libraries including
+    JUnit
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/eladmin/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: Zheng Jie
+  last_updated_on: 2022-10-24 10:17:35.000000000 Z
+- name: org.springframework.boot:spring-boot-starter-web
+  description: Starter for building web, including RESTful, applications using Spring
+    MVC
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/eladmin/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: Zheng Jie
+  last_updated_on: 2022-10-24 10:17:35.000000000 Z
+- name: org.springframework.boot:spring-boot-starter-websocket
+  description: Starter for building WebSocket applications using Spring Framework's
+    WebSocket support
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/eladmin/blob/master/eladmin-system/pom.xml
+  detection_source: eladmin-system/pom.xml
+  last_updated_by: ZhengJie
+  last_updated_on: 2020-05-29 01:25:26.000000000 Z
+- name: xerces:xercesImpl
+  description: Xerces2 is the next generation of high performance, fully compliant
+    XML parsers in the Apache Xerces family
+  version: 2.12.2
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/eladmin/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: dqjdda
+  last_updated_on: 2019-09-26 08:57:39.000000000 Z
